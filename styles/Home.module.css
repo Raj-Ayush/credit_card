@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh;
+  color: #4DB2E0;
+}
+
+.container nav{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,128 @@
+.inputTag{
+    display: flex;
+    justify-content: space-around;
+}
+.div2{
+    width: 80%;
+}
+#inp{
+    width: 120px;
+    height: 70px;
+    color: #4DB2E0;
+    border: 3px solid #4DB2E0;
+    border-radius: 10px;
+    font-size: 40px;
+    padding-left: 10px;
+}
+#inp{
+    outline: none;
+}
+.cardNumber{
+    font-size: 35px;  
+    margin-left: 5%;  
+}
+.btn{
+    position: relative;
+    font-size: 35px;
+    left: 40%;
+    margin: 5%;
+    color: #4db2e0;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #4db2e0;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px){
+    #inp{
+        width: 35px;
+        height:25px;
+        border: 2px solid #4DB2E0;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    #inp{
+        outline: none;
+    }
+    
+    .div2{
+        width: 90%;
+    }
+    .cardNumber{
+        font-size: 15px;    
+    }
+    .btn{
+        position: relative;
+        font-size: 10px;
+        left: 45%;
+        margin: 5%;
+        background-color: transparent;
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid #4db2e0;;
+    }
+    .btn:active{
+        transform: scale(0.98);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 650px) and (max-width: 950px ){
+    #inp{
+        width: 100px;
+        height: 70px;
+        color: #4DB2E0;
+        border: 3px solid #4DB2E0;
+        border-radius: 10px;
+        font-size: 12px;
+        outline: none;
+        font-size: 40px;
+    }
+    .div2{
+        width: 100%;
+    }
+    .cardNumber{
+        font-size: 30px;
+        margin-top: 12px;
+    }
+    
+    .btn{
+        position: relative;
+        font-size: 35px;
+        left: 40%;
+        margin: 5%;
+        background-color: transparent;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #4db2e0;
+    }
+    .btn:active{
+        transform: scale(0.98);
+    }
+}
+
